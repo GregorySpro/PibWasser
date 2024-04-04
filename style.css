@@ -1,0 +1,336 @@
+body{
+  background-color: #f2faea;
+}
+
+.desktop {
+  background-color: #f2faea;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #f2faea;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.desktop .header {
+  position: absolute;
+  width: 1440px;
+  height: 158px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+.desktop .overlap {
+  position: relative;
+  width: 1440px;
+  height: 158px;
+}
+
+.desktop .nav {
+  position: absolute;
+  width: 1440px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background-image: url(rectangle-1.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .tarifs {
+  position: absolute;
+  width: 178px;
+  height: 60px;
+  top: 12px;
+  left: 60px;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 176px;
+  height: 60px;
+  background-image: url(rectangle-tarifs.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .tarifs-text {
+  position: absolute;
+  top: 20px;
+  left: 37px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .RC {
+  position: absolute;
+  width: 178px;
+  height: 60px;
+  top: 12px;
+  left: 455px;
+}
+
+.desktop .RC-text-wrapper {
+  position: relative;
+  width: 176px;
+  height: 60px;
+  background-image: url(rectangle-rc.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .RC-text {
+  position: absolute;
+  top: 20px;
+  left: 69px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .autres {
+  position: absolute;
+  width: 178px;
+  height: 60px;
+  top: 12px;
+  left: 1205px;
+}
+
+.desktop .autres-text-wrapper {
+  position: relative;
+  width: 176px;
+  height: 60px;
+}
+
+.desktop .autres-text {
+  position: absolute;
+  top: 21px;
+  left: 37px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .contact {
+  position: absolute;
+  width: 178px;
+  height: 60px;
+  top: 12px;
+  left: 810px;
+}
+
+.desktop .contact-text-wrapper {
+  position: relative;
+  width: 176px;
+  height: 60px;
+  background-size: 100% 100%;
+}
+
+.desktop .contact-text {
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .emoji {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 15px;
+  left: 1065px;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 15px;
+  left: 310px;
+}
+
+.desktop .logo {
+  position: absolute;
+  width: 149px;
+  height: 147px;
+  top: 11px;
+  left: 645px;
+  background-color: #e7cbcb;
+  border-radius: 74.5px/73.5px;
+  border: 8px solid;
+  border-color: var(--rectangle);
+}
+
+.desktop .emoji-2 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 20px;
+  left: 23px;
+}
+
+.desktop .body {
+  position: absolute;
+  width: 893px;
+  height: 559px;
+  top: 227px;
+  left: 274px;
+}
+
+.desktop .slogan {
+  position: absolute;
+  width: 897px;
+  height: 98px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 269px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .la-brasserie-o {
+  position: absolute;
+  height: 29px;
+  top: 69px;
+  left: 0;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 29px;
+  white-space: nowrap;
+}
+
+.desktop .carrousel {
+  position: absolute;
+  width: 620px;
+  height: 400px;
+  top: 159px;
+  left: 136px;
+}
+
+.desktop .overlap-2 {
+  position: absolute;
+  width: 502px;
+  height: 400px;
+  top: 0;
+  left: 60px;
+}
+
+.desktop .photo {
+  position: absolute;
+  width: 502px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .PHOTOS-carrousel-wrapper {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: #d9d9d9;
+}
+
+.desktop .PHOTOS-carrousel {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  font-family: "Irish Grover", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .emoji-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 170px;
+  left: 0px;
+}
+
+.desktop .emoji-4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 170px;
+  left: 560px;
+}
+
+
+/*CONTACT*/
+  /*Tableau*/
+  .tableau-contact{
+    margin-top:170px;
+    border: black 1px solid;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1050px;
+  }
+  .tableau-contact .noms{
+    border: black 1px solid;
+    margin-top:30px;
+    font-size: x-large;
+    font-family: "Irish Grover", Helvetica;
+    text-align: center;
+    width: 350px;
+  }
+  .tableau-contact .coin{
+    background-color: black;
+    border:black 1px solid;
+  }
+  .tableau-contact .telephone{
+    border: black 1px solid;
+    margin-top:30px;
+    font-size: x-large;
+    font-family: "Irish Grover", Helvetica;
+    text-align: center;
+    width: 350px;
+  }
+  .tableau-contact .mail{
+    border: black 1px solid;
+    margin-top:30px;
+    font-size: x-large;
+    font-family: "Irish Grover", Helvetica;
+    text-align: center;
+    width: 350px;
+  }
+
+  a{
+    font-family: "Irish Grover", Helvetica;
+  }
