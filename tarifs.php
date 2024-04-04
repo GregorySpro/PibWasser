@@ -34,7 +34,7 @@
         <body>
         <?php
 
-$bddPDO = new PDO('mysql:host=localhost;dbname=produits','root','');
+$bddPDO = new PDO('mysql:host=sql309.infinityfree.com;dbname=if0_36307063_Produits','if0_36307063','RKT6tjRkVQ');
 $bddPDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $requete = "SELECT * FROM liste_produits";
