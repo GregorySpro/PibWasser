@@ -27,7 +27,7 @@
               <img class="emoji" src="emoji.png" />
               <img class="img" src="emoji-1.png" />
             </div>
-            <div class="logo" onclick="window.location.href = 'new-life-brasserie.infinityfreeapp.com/';" style="cursor:pointer;"><img class="emoji-2" src="emoji-2.png" /></div>
+            <div class="logo" onclick="window.location.href = 'index.html';" style="cursor:pointer;"><img class="emoji-2" src="emoji-2.png" /></div>
           </div>
         </header>
 
