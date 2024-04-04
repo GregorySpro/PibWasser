@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="font-family: Irish Grover;">
+  <body>
     <div class="desktop">
       <div class="div">
         <header class="header">
           <div class="overlap">
             <div class="nav">
               <div class="tarifs">
-                <div class="overlap-group"><img src="rectangle-tarifs.svg" alt="" onclick="window.location.href = 'tarifs.php';" style="cursor:pointer;"><div class="tarifs-text" ><a href="tarifs.php" style="cursor:pointer;text-decoration:none;color:black">TARIFS</a></div></div>
+                <div class="overlap-group"><img src="rectangle-tarifs.svg" alt="" onclick="window.location.href = 'tarifs.php';" style="cursor:pointer;"><div class="tarifs-text" ><a href="tarifs.php" style="cursor:pointer;text-decoration: none;color:black">TARIFS</a></div></div>
               </div>
               <div class="RC">
                 <div class="RC-text-wrapper"><img src="rectangle-rc.svg" alt="" onclick="window.location.href = 'rc.html';" style="cursor:pointer;"><div class="RC-text"><a href="rc.html" style="cursor:pointer;text-decoration: none;color:black">RC</a></div></div>
@@ -22,7 +22,7 @@
                 <div class="autres-text-wrapper"><img src="rectangle-rc.svg" alt="" onclick="window.location.href = 'other.html';" style="cursor:pointer;"><div class="autres-text"><a href="other.html" style="cursor:pointer;text-decoration: none;color:black">AUTRES</a></div></div>
               </div>
               <div class="contact">
-                <div class="contact-text-wrapper"><img src="rectangle-contact.svg" alt="" onclick="window.location.href = 'MeContact.html';" style="cursor:pointer;"><div class="MeContact-text"><a href="contact.html" style="cursor:pointer;text-decoration: none;color:black">CONTACT</a></div></div>
+                <div class="contact-text-wrapper"><img src="rectangle-contact.svg" alt="" onclick="window.location.href = 'MeContacter.html';" style="cursor:pointer;"><div class="contact-text"><a href="MeContacter.html" style="cursor:pointer;text-decoration: none;color:black">CONTACT</a></div></div>
               </div>
               <img class="emoji" src="emoji.png" />
               <img class="img" src="emoji-1.png" />
