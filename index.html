@@ -13,21 +13,21 @@
           <div class="overlap">
             <div class="nav">
               <div class="tarifs">
-                <div class="overlap-group"><img src="rectangle-tarifs.svg" alt="" onclick="window.location.href = 'tarifs.php';" style="cursor:pointer;"><div class="tarifs-text" ><a href="tarifs.php" style="cursor:pointer;text-decoration: none;color:black">TARIFS</a></div></div>
+                <div class="overlap-group"><img style="width:180px;cursor:pointer;" src="rectangle-tarifs.webp" alt="" onclick="window.location.href = 'tarifs.php';"><div class="tarifs-text" ><a href="tarifs.php" style="cursor:pointer;text-decoration: none;color:black">TARIFS</a></div></div>
               </div>
               <div class="RC">
-                <div class="RC-text-wrapper"><img src="rectangle-rc.svg" alt="" onclick="window.location.href = 'rc.html';" style="cursor:pointer;"><div class="RC-text"><a href="rc.html" style="cursor:pointer;text-decoration: none;color:black">RC</a></div></div>
+                <div class="RC-text-wrapper"><img style="width:180px;cursor:pointer;" src="rectangle-rc.webp" alt="" onclick="window.location.href = 'rc.html';"><div class="RC-text"><a href="rc.html" style="cursor:pointer;text-decoration: none;color:black">RC</a></div></div>
               </div>
               <div class="autres">
-                <div class="autres-text-wrapper"><img src="rectangle-rc.svg" alt="" onclick="window.location.href = 'other.html';" style="cursor:pointer;"><div class="autres-text"><a href="other.html" style="cursor:pointer;text-decoration: none;color:black">AUTRES</a></div></div>
+                <div class="autres-text-wrapper"><img style="width:180px;cursor:pointer;" src="rectangle-rc.webp" alt="" onclick="window.location.href = 'other.html';"><div class="autres-text"><a href="other.html" style="cursor:pointer;text-decoration: none;color:black">AUTRES</a></div></div>
               </div>
               <div class="contact">
-                <div class="contact-text-wrapper"><img src="rectangle-contact.svg" alt="" onclick="window.location.href = 'MeContacter.html';" style="cursor:pointer;"><div class="contact-text"><a href="MeContacter.html" style="cursor:pointer;text-decoration: none;color:black">CONTACT</a></div></div>
+                <div class="contact-text-wrapper"><img style="width:180px;cursor:pointer;" src="rectangle-contact.webp" alt="" onclick="window.location.href = 'MeContacter.html';"><div class="contact-text"><a href="MeContacter.html" style="cursor:pointer;text-decoration: none;color:black">CONTACT</a></div></div>
               </div>
-              <img class="emoji" src="emoji.png" />
-              <img class="img" src="emoji-1.png" />
+              <img class="emoji" src="emoji.webp" />
+              <img class="img" src="emoji-1.webp" />
             </div>
-            <div class="logo" onclick="window.location.href = 'index.html';" style="cursor:pointer;"><img class="emoji-2" src="emoji-2.png" /></div>
+            <div class="logo" onclick="window.location.href = 'index.html';" style="cursor:pointer;"><img class="emoji-2" src="emoji-2.webp" /></div>
           </div>
         </header>
         <div class="body">
@@ -41,12 +41,31 @@
             <div class="overlap-2">
               <div class="photo">
                 <div class="PHOTOS-carrousel-wrapper">
-                  <div class="PHOTOS-carrousel">PHOTOS<br />CARROUSEL</div>
+                           
+                  <!--modifier les photos quand y en aura de vrai venant du jeu-->
+                  <div class="carousel-wrapper" style="width: 100%;height:100%;">
+                    <span id="target-item-1"></span>
+                    <span id="target-item-2"></span>
+                    <span id="target-item-3"></span>
+                    <div class="carousel-item item-1">
+                      <img src="logo_pib.webp" alt="" style="margin-left: 12%;">
+                      <a class="arrow arrow-prev" href="#target-item-3"></a>
+                      <a class="arrow arrow-next" href="#target-item-2"></a>
+                    </div>
+                    <div class="carousel-item item-2 light">
+                      <img src="biere.webp" alt="" style="margin-left: 20%;width: 250px;">
+                      <a class="arrow arrow-prev" href="#target-item-1"></a>
+                      <a class="arrow arrow-next" href="#target-item-3"></a>
+                    </div>
+                    <div class="carousel-item item-3">
+                      <img src="drink.webp" alt="" style="margin-left: 12%;margin-top:35px">
+                      <a class="arrow arrow-prev" href="#target-item-2"></a>
+                      <a class="arrow arrow-next" href="#target-item-1"></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <img class="emoji-3" src="emoji-4.png" />
-            <img class="emoji-4" src="emoji-3.png" />
           </div>
         </div>
       </div>
