@@ -46,7 +46,7 @@ if (!$result){
 }else{
     $nbr_produits = $result->rowCount();
     ?>
-    <div style="display:flex;width:100%;item-align:cnter">
+    <div style="display:flex;width:100%;item-align:center">
       <table style="border:black 1px solid;text-align:center;margin-top:300px;">
           <tr>
               <th style="border:black 1px solid;">nom du produit</th>
