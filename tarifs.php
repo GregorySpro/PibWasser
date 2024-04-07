@@ -46,8 +46,8 @@ if (!$result){
 }else{
     $nbr_produits = $result->rowCount();
     ?>
-    <div style="display:flex;width:100%;item-align:center">
-      <table style="border:black 1px solid;text-align:center;margin-top:300px;">
+    <div style="display:flex;width:100%;">
+      <table style="margin-left:auto;margin-right:auto;border:black 1px solid;text-align:center;margin-top:300px;">
           <tr>
               <th style="border:black 1px solid;">nom du produit</th>
               <th style="border:black 1px solid;">prix du produit</th>
