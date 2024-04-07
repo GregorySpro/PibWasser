@@ -46,25 +46,27 @@ if (!$result){
 }else{
     $nbr_produits = $result->rowCount();
     ?>
+    <div style="display:flex;width:100%;item-align:cnter">
+      <table style="border:black 1px solid;text-align:center;margin-top:300px;">
+          <tr>
+              <th style="border:black 1px solid;">nom du produit</th>
+              <th style="border:black 1px solid;">prix du produit</th>
+          </tr>
 
-    <table style="border:black 1px solid;text-align:center;margin-top:300px;">
-        <tr>
-            <th style="border:black 1px solid;">nom du produit</th>
-            <th style="border:black 1px solid;">prix du produit</th>
-        </tr>
-
-    <?php
-    while($ligne=$result->fetch(PDO::FETCH_NUM)){
-        echo "<tr>";
-        foreach($ligne as $valeur){
-            echo "<td style='border:black 1px solid;'>$valeur</td>";
-        }
-        echo "</tr>";
-    }
-    ?>
+      <?php
+      while($ligne=$result->fetch(PDO::FETCH_NUM)){
+          echo "<tr>";
+          foreach($ligne as $valeur){
+              echo "<td style='border:black 1px solid;'>$valeur</td>";
+          }
+          echo "</tr>";
+      }
+      ?>
 
 
-    </table>
+      </table>
+    </div>
+    
 
     <?php
     $result->closeCursor();
